@@ -124,18 +124,6 @@ class KMVector:
 
 	def __str__(self):
 		return "Vector: <{}>\n Dimensions: {}\n Magnitude: {}\n Is resultant: {}\n Has Parents: {}\n".format(str(self.Vec)[1:-1], 
-																									   len(self.Vec), 
-																									   (sum([i ** 2 for i in self.Vec])), 
-																									   self.isResultantVec, 
-																									   self.resultantParentVectors)
-
-myVec = KMVector(5, 7, 8)
-myVec2 = KMVector(5, 7, 8)
-print(myVec)
-print(myVec2)
-myVec3 = myVec + myVec2
-print(myVec3)
-print("Degrees: {}".format( KMVector.getAngle(myVec, [3, -9, 21]) ) )
 
 
 
