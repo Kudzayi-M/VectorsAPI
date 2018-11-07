@@ -10,7 +10,7 @@
 # -All methods involving angles will retun degrees by default, as opposed to radians.
 # - Deprecation Warning, in the future, creating a KMVector object may require you to pass in a list instead of an undifined series of numbers,
 #   for example:
-#   myVec = KMVector([5, 7, 8]) instead of myVec = KMVector(5, 7, 8). This change will depend on public requests
+#   myVec = KMVector([5, 7, 8]) instead of myVec = KMVector(5, 7, 8). This change will depending on public requests
 #### Warning, Documentation does not yet exist for this module ####
 
 ## Lisencing Notice ##
