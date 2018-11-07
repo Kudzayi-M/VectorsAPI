@@ -5,12 +5,12 @@
 ########### Error codes and notes #############
 # -Error 0x000001: Dot Product function cannot process passed arguments. There must only be two arguments, a list and/or a KMVector object.
 # -Error 0x000002: Cannot divide integer by Vector object. Try dividing Vector object by integer instead.
-# -Error 0x000002: Get angle function cannot process passed arguments. There must only be two arguments, a list and/or a KMVector object.
+# -Error 0x000003: Get angle function cannot process passed arguments. There must only be two arguments, a list and/or a KMVector object.
 # -Performing a standard math operator on more than two KMVector objects will work, but can only give you upto two parent vectors if returned by __str__
 # -All methods involving angles will retun degrees by default, as opposed to radians.
 # - Deprecation Warning, in the future, creating a KMVector object may require you to pass in a list instead of an undifined series of numbers,
 #   for example:
-#   myVec = KMVector([5, 7, 8]) instead of myVec = KMVector(5, 7, 8). This change will depending on public requests
+#   myVec = KMVector([5, 7, 8]) instead of myVec = KMVector(5, 7, 8). This change will depend on public requests
 #### Warning, Documentation does not yet exist for this module ####
 
 ## Lisencing Notice ##
