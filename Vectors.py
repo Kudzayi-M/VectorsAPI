@@ -123,7 +123,7 @@ class KMVector:
 			return "Error code: 0x000003"
 
 	def __str__(self):
-		return "Vector: <{}>\n Dimensions: {}\n Magnitude: {}\n Is resultant: {}\n Has Parents: {}\n".format(str(self.Vec)[1:-1], 
+		return "Vector: <{}>\n Dimensions: {}\n Magnitude: {}\n Is resultant: {}\n Has Parents: {}\n".format(str(self.Vec)[1:-1]) 
 
 
 
