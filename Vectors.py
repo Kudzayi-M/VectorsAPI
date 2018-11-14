@@ -1,5 +1,5 @@
 ###################################
-# REMUS Vector Math module v1.0.0 #
+# REMUS Vector Math module v1.1.4 #
 ###################################
 
 ########### Error codes and notes #############
@@ -21,7 +21,6 @@
 # Copyright © 2018 by https://remusmtf.com/
 
 #### Comming to v2.0.0 ####
-# =Get magnatuide of vectors
 # -Cross/Scalar Product
 # -Check if two vectors are perpendicular, parallel or non-parallel/converging
 
